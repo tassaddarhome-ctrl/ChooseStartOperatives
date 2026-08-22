@@ -270,7 +270,7 @@ namespace ChooseStartOperatives
             Place((RectTransform)_tabMercsButton.transform,
                 new Vector2(0f, 1f), new Vector2(0f, 1f), new Vector2(0f, 1f),
                 new Vector2(tabW, _rowH), Vector2.zero);
-            _tabMercsButton.SetRawCaption(L("Наёмники", "Operatives"));
+            _tabMercsButton.SetRawCaption(L("Наемники", "Operatives"));
             NormalizeCaption(_tabMercsButton, TextAlignmentOptions.Center, 4f);
             _tabMercsButton.OnClick += delegate { SwitchTab(true); };
 
