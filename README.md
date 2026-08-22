@@ -52,8 +52,6 @@ dotnet build -c Release -p:GameDir="C:\Path\To\Quasimorph"
 - Папка загрузки: `publish\` (DLL + манифест + `thumbnail.png`).
 - Обновление: пересобрать, скопировать `bin/Release/ChooseStartOperatives.dll` в `publish\`, затем в игровой консоли
   `mod_updateworkshopitem 3788001973 D:\modding\ChooseStartOperatives\publish FALSE` (TRUE — заодно обновить превью).
-- Превью генерируется скриптом `D:\modding\make_workshop_preview.py` (квадрат 640×640 в стиле
-  игры, фиолетовый треугольник-подпись).
 
 ## Как это устроено
 
